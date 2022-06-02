@@ -1,0 +1,325 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(tanishop.jpg);
+    
+}
+/* header */
+
+header{
+    background-color:#000000;
+    opacity: 0.8;
+    padding:20px;
+    /* margin-top: -8px; */
+}
+#home{
+    display:inline-block;
+    font-family: 'Times New Roman', Times, serif;
+
+    margin-left:34px;
+}
+#contact{
+    display:inline-block;
+    margin-left: 79px;
+    
+}
+#about-us{
+    display:inline-block;
+    margin-left: 90px;
+}
+
+#feedback{
+    display: inline-block;
+    margin-left: 112px;
+}
+
+#home a{
+    text-decoration:unset;
+    font-size: 20px;
+    color: lavenderblush;
+    font-family: cursive;
+}
+#contact a{
+    text-decoration:unset;
+    font-size: 20px;
+    color: lavenderblush;
+    font-family: cursive;
+}
+#about-us a{
+    text-decoration:unset;
+    font-size: 20px;
+    color: lavenderblush;
+    font-family: cursive;
+}
+#feedback a {
+    text-decoration: none;
+    font-size: 20px;
+    color: lavenderblush;
+    font-family: cursive;
+}
+ 
+#home a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+
+}
+
+#contact a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+
+}
+
+#about-us a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+
+}
+
+#feedback a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+
+}
+
+
+/* Main */
+main{
+    /* background-color: #68674f; */
+    height:905px;
+    /* padding:111px; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* width:100vw; */
+}
+
+#heading h1{
+    color:black;
+    font-variant: petite-caps;
+    font-family: 'Orbitron', sans-serif;
+   
+   
+}
+
+#Time h1{
+    color:black;
+    font-family: 'Orbitron', sans-serif;
+   
+
+}
+
+#Time{
+    font-size:100px;
+    margin-top:-113px;
+    font-family:sans-serif;
+
+}
+#heading{
+    font-size: 67px; 
+}
+
+#credentials{
+    margin-top: -200px;
+}
+#date{
+    font-family: 'Orbitron', sans-serif;
+}
+#s-div,#r-div{
+    display:inline-block;
+    margin-top: 39px;
+    
+
+
+}
+#set{
+    background-color: red;
+    color:white;
+}
+
+#reset{
+    background-color: blue;
+    color:white;
+}
+#set,#reset{
+    /* background-color: cornsilk; */
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    width: 146px;
+    padding:10px 10px;
+    border-radius: 10px;
+
+}
+
+audio{
+    visibility:auto;
+}
+
+/* footer */
+
+footer{
+    width:100%;
+    height:37vh;
+    background-color: #000000;
+    opacity: 0.8;
+    /* margin-top:16vh; */
+    padding:7%;
+    box-sizing: border-box;
+    padding-top: 2px;
+}
+
+footer div{
+    display:inline-block;
+    text-align:center;
+    padding: 23px;
+}
+
+footer div h3 {
+    color:#f5f5f5;
+    opacity: 0.5;
+    
+}
+
+footer div ul{
+    list-style-type:none;
+    
+}
+
+footer div ul li a{
+    text-decoration: none;
+    color:#f5f5f5;
+    
+}
+
+footer div ul li a:hover{
+    text-decoration: underline;
+   
+}
+
+#Mail a,#alarm h3 a {
+    text-decoration: none;
+    color:#f5f5f5;
+    
+}
+
+#Mail a:hover{
+    text-decoration: underline;
+}
+
+
+#alarm h3 a:hover{
+    text-decoration: underline;
+}
+
+#social{
+    margin-left:364px;
+}
+#copyright{
+    margin:auto;
+    margin: -40px 0px 0px 457px
+}
+
+#social ul li,#about ul li{
+    margin-left: -37px;
+}
+
+
+
+
+/* RESPONSIVE DESIGN */
+@media only screen and (max-width:1172px){
+    #heading h1,#Time h1{
+        font-size:150px;
+    }
+}
+
+@media only screen and (max-width:1050px){
+    footer{
+        /* background-color: red; */
+        display:flex;
+        flex-direction:column;
+        height: fit-content;
+        
+    }
+
+    footer #social{
+        margin-left: 10px;
+    }
+
+    footer #copyright{
+        border-top: 2px solid white;
+        margin-left:10px;
+        margin-top:10px;
+    }
+}
+
+@media screen and (max-width:708px){
+    header{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    #home,#about-us,#contact,#feedback{
+        margin-left:10px;
+    }
+}
+
+@media screen and (max-width:695px){
+     #Time h1,#heading h1{
+        font-size:121px;
+    } 
+    main cen{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+/* @media screen and (min-width:50px){
+    #Time h1,#heading h1{
+        font-size:100px;
+    }
+
+} */
+@media screen and (max-width:530px){
+    header{
+        width:100vw;
+        
+    }
+    footer{
+        width:108vw;
+        height: fit-content;
+        
+    }
+
+    #heading h1,#Time h1{
+        font-size: 0.9em;
+        margin-left: 20px;
+    } 
+
+    #credentials{
+        margin-top:-95px;
+
+    }
+
+    #credentials #date{
+        margin-left:-2px;
+    }
+
+    #credentials #time{
+        margin-left:-39px;
+    }
+
+    #Time{
+        margin-top:50px;
+    }
+
+    main{
+        height: 700px;
+    }
+} 

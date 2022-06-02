@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="favicon.jfif" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+    </style>
+        
+</head>
+
+<body>
+    <header>
+        <div id="home">
+            <a href="index.html">HOME</a>
+        </div>
+        <div id="contact">
+            <a href="mailto:vanshgupta4661@gmail.com?cc=vansh1504.be21@chitkara.edu.in" target="_blank">Contact Us</a>
+        </div>
+        <div id="about-us">
+            <a href="aboutus.html" target="_blank">About Us</a>
+        </div>
+        <div id="feedback">
+            <a href="feedback.html" target="_blank">Feedback</a>
+        </div>
+    </header>
+
+    <main>
+    <center>
+        <div id="heading" >
+            <h1 id="heading1">Digital Alarm</h1>
+            
+        </div>
+        
+        <div id = "Time" style="font-family: 'Orbitron', sans-serif;">
+            <h1 id="clock">00:00:00</h1><br>
+        </div>
+        
+        <div id="credentials"> 
+            <label id="date">Select date & time:</label>
+            <input type="datetime-local" name="date"  onchange="setAlarmTime(this.value)">
+            
+        </div>
+
+        <div id="s-div">
+            <button  id="set" onclick="setAlarm()"> Set Alarm</button>
+        </div>
+       
+        <div id="r-div" >
+            <button id="reset" onclick="clearAlarm()">Reset Alarm</button>
+        </div>
+    </center>
+    </main>
+
+    <footer>
+        <div id="social">
+           <h3>Social Platforms</h3>
+           
+           <ul>
+               <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+               <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+               <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                
+           </ul>
+       </div>
+
+       <div id="about">
+            <h3>About</h3>
+            
+            <ul>
+                <li><a href="" target="_blank">About Us</a></li>
+                <li><a href="mailto:vanshgupta4661@gmail.com?cc=varunsingla456@gmail.com&bcc=thetanutaneja@gmail.com" target="_blank">Contact Us</a></li>
+                <li><a href="feedback.html" target="_blank">Feedback</li></a>
+                
+            </ul>
+
+       </div>
+
+       
+       <div id="Mail">
+           <h3>Mail Us</h3>
+           <a href="mailto:vanshgupta4661@gmail.com" target="_blank">vanshgupta4661@gmail.com</a> <br>
+           <a href="mailto:varunsingla456@gmail.com" target="_blank">varunsingla456@gmail.com</a> <br>
+           <a href="mailto:thetanutaneja@gmail.com" target="_blank">thetanutaneja@gmail.com</a>
+       
+        </div>
+
+        
+
+       <hr>
+
+       <div id="copyright">
+           <h3>Copyrights&copy;by Alaram Clock.com</h3>
+       </div>
+
+        <!-- <audio controls loop src="clock tik.mp3">
+            <source src="clock tik.mp3" type="audio/mp3">
+        </audio> -->
+
+    </footer> 
+
+    <script  src="index.js">
+        
+    </script>
+
+    <!-- <audio  loop src="clock tik.mp3">
+         <source src="clock tik.mp3" type="audio/mp3">
+    </audio> -->
+</body>
+</html>
