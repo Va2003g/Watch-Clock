@@ -1,16 +1,17 @@
 body{
     margin:0;
     padding:0;
-    background-image: url(Background.jpg);
-    
+    /* background-image: url(Background.jpg); */
+    background-color: #121818;    
 }
 /* header */
 
 header{
-    background-color:#000000;
+    background-color: #121818;  
     opacity: 0.8;
     padding:20px;
     /* margin-top: -8px; */
+    border-bottom: 2px dotted ghostwhite;
 }
 #home{
     display:inline-block;
@@ -99,16 +100,26 @@ main{
 }
 
 #heading h1{
-    color:black;
-    font-variant: petite-caps;
+    font-size:12rem;
     font-family: 'Orbitron', sans-serif;
-   
+    background-image: linear-gradient(180deg,rgba(99,253,136,1) 0%,rgba(51,197,142,1) 50%,rgba(39,97,116,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
    
 }
 
 #Time h1{
-    color:black;
+    font-size:15rem;
     font-family: 'Orbitron', sans-serif;
+    background-image: linear-gradient(180deg,rgba(99,253,136,1) 0%,rgba(51,197,142,1) 50%,rgba(39,97,116,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
    
 
 }
@@ -126,7 +137,19 @@ main{
 #credentials{
     margin-top: -200px;
 }
+
+#credentials label{
+    font-size:2rem;
+    font-family: 'Orbitron', sans-serif;
+    background-image: linear-gradient(180deg,rgba(99,253,136,1) 0%,rgba(51,197,142,1) 50%,rgba(39,97,116,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
 #date{
+    font-size:5rem;
     font-family: 'Orbitron', sans-serif;
 }
 #s-div,#r-div{
@@ -164,7 +187,7 @@ audio{
 footer{
     width:100%;
     height:37vh;
-    background-color: #000000;
+    background-color: #121818;  
     opacity: 0.8;
     /* margin-top:16vh; */
     padding:7%;

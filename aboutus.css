@@ -1,17 +1,18 @@
 body{
     margin:0;
     padding:0;
-    background-image: url(Background.jpg);
+    background-color: #121818;    
     /* background:repeating-linear-gradient(black,white,black); */
 }
 /* header */
 
 header{
-    background-color:#000000;
+    background-color: #121818;   
     opacity: 0.8;
     padding:20px;
     /* margin-top: -8px; */
     position:sticky;
+    border-bottom: 2px dotted ghostwhite;
 }
 
 #home{
@@ -115,12 +116,25 @@ main h1,h2{
     font-style: italic;
     font-family:cursive;
     opacity:0.6;
+    /* font-family: 'Orbitron', sans-serif; */
+    background-image: linear-gradient(180deg,rgba(99,253,136,1) 0%,rgba(51,197,142,1) 50%,rgba(39,97,116,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
     
 }
 
 #information p{
     font-size: 1.5em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(180deg,rgba(99,253,136,1) 0%,rgba(51,197,142,1) 50%,rgba(39,97,116,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
 
 }
 
@@ -140,7 +154,7 @@ main h1,h2{
 footer{
     width:100%;
     height:37vh;
-    background-color: #000000;
+    background-color: #121818;   
     opacity: 0.8;
     /* margin-top:16vh; */
     padding:7%;
